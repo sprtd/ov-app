@@ -63,7 +63,6 @@ h3:nth-child(2) .link {
 }
 
 .container .left {
-  /* color: var(--link-color); */
   position: relative;
   z-index: 2;
   padding: 250px 20px;
@@ -85,7 +84,7 @@ h3:nth-child(2) .link {
   z-index: 0;
 }
 
-.container .glass {
+.container .product {
   padding: 250px 80px;
   background: white;
   z-index: 4;
@@ -96,11 +95,11 @@ h3:nth-child(2) .link {
   opacity: .3;
 }
 
-.glass ul {
+.product ul {
   list-style: none;
 }
 
-.glass ul li {
+.product ul li {
   background: brown;
   z-index: 5;
   width: 70%;

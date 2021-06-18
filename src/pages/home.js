@@ -1,17 +1,12 @@
 import React from 'react'
+import Product from '../components/product'
 
 const Home = () => {
   return (
     <div className='container'>
       <div className="layout">
         <div className='left'></div>  
-        <div className='glass'>
-          <ul className='list-collection'>
-            <li className='list-item'></li>
-            <li className='list-item'></li>
-           
-          </ul>
-        </div>  
+        <Product /> 
       </div>
           
       <div className="bg-overlay"></div>
